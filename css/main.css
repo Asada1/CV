@@ -4,6 +4,7 @@
 
 html, body {
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1em;
   padding: 0;
   border: 0;
   margin: 0;
@@ -14,11 +15,11 @@ html, body {
 
 /* Style the header */
 header {
-  background-color: #666;
-  padding: 30px;
+  background-color: #142c14;
+  padding: 1px;
   text-align: center;
-  font-size: 35px;
-  color: white;
+  line-height: 0.5em;
+  font-size: larger;
 }
 
 section {
@@ -29,9 +30,10 @@ section {
 nav {
   float: left;
   width: 10%;
-  background: #ccc;
+  background: #412010;
   padding: 20px;
   font-size: larger;
+  line-height: 1.5em;
 }
 
 /* Style the list inside the menu */
@@ -44,7 +46,7 @@ article {
   float: left;
   padding: 20px;
   width: 90%;
-  background-color: #f1f1f1;
+  background-color: #2d5128;
 }
 
 /* Clear floats after the columns */
@@ -61,6 +63,7 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
+  background-color: #142c14;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
@@ -72,4 +75,16 @@ footer {
     width: 100%;
   }
 }
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+html,body,h1,h2,h3,h4,h5,h6,a {
+  font-family: "Roboto", sans-serif;
+  color: #edf2f4;
+}
+a{
+  text-decoration: none 
+}
+a:hover {
+  color: #044389;
+}
+a:active {
+  color: #3668A0;
+}
