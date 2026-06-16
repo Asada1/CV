@@ -33,13 +33,19 @@ nav {
   background: #412010;
   padding: 20px;
   font-size: larger;
-  line-height: 1.5em;
+  /* line-height removed here to manage it directly on target elements */
 }
 
 /* Style the list inside the menu */
 nav ul {
   list-style-type: none;
   padding: 0;
+  margin: 0; /* Ensures the ul doesn't add default browser margins */
+}
+
+nav li {
+  line-height: 1.15;      /* Tight spacing for text wrapping within the li */
+  margin-bottom: 1em;     /* Larger gap between separate li elements */
 }
 
 article {
